@@ -1,0 +1,450 @@
+* {
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+/* header, section, ul, footer {
+  border: 1px solid black;
+
+} */
+
+header, .top {
+  background-color: #8985bf;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header a {
+  padding-right: 5%;
+  float: right;
+}
+
+header, .top {
+  color: white;
+}
+
+header img {
+  height: 30px;
+  margin: 10px 0 0 40%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.hire {
+  display: inline;
+  float: left;
+}
+
+.top {
+  width: 100%;
+  /* height: 400px; */
+  text-align: center;
+  padding: 1%;
+}
+
+.top p {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.top span {
+  text-transform: uppercase;
+  font-size: 5em;
+  margin-right: 10%;
+}
+
+.why {
+  padding: 5%;
+  /* height: 350px; */
+  text-align: center;
+}
+
+.why p {
+  width: 54%;
+  margin-left: 23%;
+}
+
+.why span {
+  text-transform: uppercase;
+  font-size: 5em;
+}
+
+.split section {
+  /* height: 440px; */
+  width: 50%;
+  background: silver;
+  text-align: center;
+  float: left;
+  padding: 1%;
+}
+
+.split a {
+  color: black;
+}
+
+.split section p {
+  margin: 50px 0 0 10%;
+  width: 80%;
+}
+
+.split img {
+  height: 140px;
+  margin: 45px 0 0 0%;
+}
+
+.split span {
+  display: block;
+  font-size: 1.5em;
+}
+
+.ground {
+  padding: 5%;
+  text-align: center;
+  /* height: 300px; */
+  width: 100%;
+  clear: both;
+}
+
+.ground p {
+  width: 54%;
+  margin-left: 23%;
+}
+
+.ground span {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline;
+}
+
+footer i, footer a {
+  margin: 5%;
+  color: white;
+}
+
+.fp {
+  border-top: .5px solid white;
+  width: 100%;
+}
+
+.fp img {
+  height: 30px;
+  float: right;
+}
+
+.fcontact, .finfo {
+  /* height: 80px; */
+  width: 20%;
+  padding: 1%;
+}
+
+.fcontact {
+  width: 20%;
+  float: left;
+}
+
+.fcontact span {
+  color: gray;
+}
+
+.finfo {
+  padding-top: 70px;
+  /* height: 200px; */
+  width: 20%;
+  float: right;
+}
+
+.caption {
+  margin-top: 200px;
+  /* height: 50px; */
+  width: 100%;
+  clear: both;
+}
+
+footer {
+  padding: 2%;
+  /* height: 280px; */
+  width: 100%;
+  color: white;
+  background: black;
+  clear: both;
+}
+
+@media (min-width: 1024px) and (max-width:1366px) {
+  section, footer, header {
+    height: auto;
+  }
+  .top span {
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 8em;
+  }
+  header img {
+    height: 80px;
+    margin: 10px 0 0 25%;
+  }
+  .split span {
+    font-size: 5em;
+  }
+  .split section {
+    clear: both;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .split img {
+    height: 400px;
+  }
+  span, p, a, i {
+    font-size: 2em;
+  }
+  section, footer, header {
+    padding: 2%;
+    overflow: auto;
+  }
+  .fp img {
+    height: 70px;
+  }
+  button {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+  section, footer, header {
+    height: auto;
+  }
+  .top span {
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 8em;
+  }
+  header img {
+    height: 80px;
+    margin: 10px 0 0 15%;
+  }
+  .split span {
+    font-size: 5em;
+  }
+  .split section {
+    clear: both;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .split img {
+    height: 400px;
+  }
+  span, p, a, i {
+    font-size: 2em;
+  }
+  section, footer, header {
+    padding: 2%;
+    overflow: auto;
+  }
+  .fp img {
+    height: 70px;
+  }
+  button {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+  section, footer, header {
+    height: auto;
+  }
+  .top span {
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 8em;
+  }
+  header img {
+    height: 80px;
+    margin: 10px 0 0 25%;
+  }
+  .split span {
+    font-size: 5em;
+  }
+  .split section {
+    clear: both;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .split img {
+    height: 400px;
+  }
+  span, p, a, i {
+    font-size: 2em;
+  }
+  section, footer, header {
+    padding: 2%;
+    overflow: auto;
+  }
+  .fp img {
+    height: 70px;
+  }
+  button {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 375px) and (max-width:812px) {
+  * {
+    font-size: 8px;
+  }
+  section, footer, header {
+    height: auto;
+  }
+  .top span {
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 5em;
+  }
+  header img {
+    height: 80px;
+    margin: 45px 0 0 0%;
+  }
+  .split span {
+    font-size: 5em;
+  }
+  .split section {
+    clear: both;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .split img {
+    height: 130px;
+  }
+  span, p, a, i {
+    font-size: 2em;
+  }
+  section, footer, header {
+    padding: 2%;
+    overflow: auto;
+  }
+  .fp img {
+    height: 35px;
+  }
+  button {
+    font-size: 12px;
+  }
+  .finfo {
+    display: none;
+  }
+  .fcontact {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width:568px) {
+  * {
+    font-size: 8px;
+  }
+  section, footer, header {
+    height: auto;
+  }
+  .top span {
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 5em;
+  }
+  header img {
+    height: 80px;
+    margin: 45px 0 0 -6%;
+  }
+  .split span {
+    font-size: 5em;
+  }
+  .split section {
+    clear: both;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .split img {
+    height: 130px;
+  }
+  span, p, a, i {
+    font-size: 2em;
+  }
+  section, footer, header {
+    padding: 2%;
+    overflow: auto;
+  }
+  .fp img {
+    height: 35px;
+  }
+  button {
+    font-size: 12px;
+  }
+  .finfo {
+    display: none;
+  }
+  .fcontact {
+    width: 100%;
+  }
+}
+
+@media (min-width: 411px) and (max-width:823px) {
+  * {
+    font-size: 8px;
+  }
+  section, footer, header {
+    height: auto;
+  }
+  .top span {
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 5em;
+  }
+  header img {
+    height: 80px;
+    margin: 45px 0 0 4%;
+  }
+  .split span {
+    font-size: 5em;
+  }
+  .split section {
+    clear: both;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .split img {
+    height: 130px;
+  }
+  span, p, a, i {
+    font-size: 2em;
+  }
+  section, footer, header {
+    padding: 2%;
+    overflow: auto;
+  }
+  .fp img {
+    height: 35px;
+  }
+  button {
+    font-size: 12px;
+  }
+  .finfo {
+    display: none;
+  }
+  .fcontact {
+    width: 100%;
+  }
+}
